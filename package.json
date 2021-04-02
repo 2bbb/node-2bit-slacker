@@ -1,7 +1,10 @@
 {
   "name": "@2bit/slacker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "tiny class to post message to slack",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -10,7 +13,7 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "keywords": ["slack"],
   "author": "ISHII 2bit",
   "license": "MIT",
   "dependencies": {
